@@ -1,0 +1,14 @@
+a=15
+b=5
+print(a+b)
+print(a**b)
+print(a==b)
+print(a!=b)
+print(a&b)
+print(not((a>b)and(a!=b)))
+a+=b
+print(a)
+a-=b
+print(a)
+a*=b
+print(a)
