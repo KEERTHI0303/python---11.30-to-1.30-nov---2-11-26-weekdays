@@ -1,0 +1,82 @@
+a="python ProGramminG. i c1 class"
+print(a)
+print(a.capitalize())
+print(a.casefold())
+print(a.lower())
+print(a.upper())
+print(a.endswith("minG"))
+print(a.center(25))
+print(a.count('G'))
+print(a.encode())
+#a="i\tam\tkeerthi\t"
+print(a.expandtabs())
+print(a.find('m'))
+print(a.rfind('G'))
+print(a.index('a'))
+print(a.rindex('G'))
+#a="9hello9"
+print(a.isalnum())
+print(a.isalpha())
+print(a.isascii())
+print(a.isdecimal())
+print(a.isdigit())
+print(a.isidentifier())
+print(a.islower())
+print(a.isnumeric())
+print(a.isprintable())
+#a=' '
+print(a.isspace())
+print(a.istitle())
+print(a.join("@\n@*"))
+print(a.ljust(26))
+print(a.partition("o"))
+print(a.removeprefix("py"))
+print(a.removesuffix("inG"))
+print(a.replace("python","java"))
+print(a.rsplit('o'))
+print(a.split('n'))
+#a="i am  i have"
+print(a.splitlines())
+print(a.startswith("i am"))
+print(a.strip())
+print(a.swapcase())
+print(a.title())
+a="i am  ${name}  i have"
+print(a.zfill(20))
+name="abc"
+print(a.format(a,"xyz"))
+'''for i in range(65,100):
+    print(i,chr(i))
+'''
+'''a=[12,34,56,78,23,7,27]
+for i in a:
+    if i%2!=0:
+        continue
+    else:
+        print(i)
+
+        
+count=0
+for i in range(2,1001,2):
+    count=count+1
+    if count==51:
+        break
+    print(i)
+'''
+
+'''for i in range(1,10,1):
+    print(i)
+    if i==5:
+        break'''
+'''for i in range(1,10,1):
+    if i==5:
+        continue   
+    print(i)'''
+
+
+'''a=1
+while a<10:
+    print(a)
+    a=a+1
+    
+'''
